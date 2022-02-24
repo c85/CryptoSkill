@@ -1,0 +1,69 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "my crypto",
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.FallbackIntent",
+          "samples": []
+        },
+        {
+          "name": "CryptoBalance",
+          "slots": [],
+          "samples": [
+            "balance",
+            "what is my total",
+            "what is my balance"
+          ]
+        },
+        {
+          "name": "CryptoDetail",
+          "slots": [],
+          "samples": [
+            "details",
+            "additional information",
+            "more details",
+            "more info"
+          ]
+        },
+        {
+          "name": "StartMining",
+          "slots": [],
+          "samples": [
+            "start all rigs",
+            "start mining",
+            "start rigs"
+          ]
+        },
+        {
+          "name": "StopMining",
+          "slots": [],
+          "samples": [
+            "stop rigs",
+            "stop all rigs",
+            "stop all mining",
+            "stop mining"
+          ]
+        }
+      ],
+      "types": []
+    }
+  },
+  "version": "16"
+}
